@@ -12,4 +12,8 @@
             </a>
         </td>
     </tr>
+    <tr>
+        <td><b>HackerRank</b></td>
+        <td><a href="https://www.hackerrank.com/azimut/hackos">Hackos</a></td>
+    </tr>
 </table>
