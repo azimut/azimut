@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td><b>HackerRank</b></td>
-        <td><a href="https://www.hackerrank.com/azimut/hackos">profile</a></td>
+        <td><a href="https://www.hackerrank.com/azimut">profile</a></td>
         <td><a href="https://github.com/azimut/challenges/tree/master/hackerrank">code</a></td>
     </tr>
 </table>
