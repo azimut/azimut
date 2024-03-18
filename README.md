@@ -1,3 +1,5 @@
+### 🥷 Coding Challenges
+
 <table style="text-align: center">
     <tr>
         <td><b>Codewars</b></td>
@@ -22,6 +24,7 @@
 </table>
 
 #
+
 
 ### 📊 Stats
 
