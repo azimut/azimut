@@ -20,3 +20,7 @@
         <td><a href="https://github.com/azimut/challenges/tree/master/exercism">code</a></td>
     </tr>
 </table>
+
+### 📊 Stats
+
+![azimut's GitHub stats](https://github-readme-stats.vercel.app/api?username=azimut&show_icons=true&theme=gruvbox)
