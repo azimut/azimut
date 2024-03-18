@@ -5,8 +5,6 @@
   <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=azimut&layout=compact&hide_border=true&theme=gruvbox&bg_color=00000000&langs_count=6&hide=csound%20score,csound">
 </p>
 
-<hr/>
-
 <h2 align="center">🥷 Coding Challenges</h2>
 
 <p align="center">
