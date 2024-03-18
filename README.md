@@ -7,7 +7,7 @@
 
 <h2 align="center">🥷 Coding Challenges</h2>
 
-<p align="center">
+<div align="center">
 <table style="text-align: center">
     <tr>
         <td><b>Codewars</b></td>
@@ -30,4 +30,4 @@
         <td><a href="https://github.com/azimut/challenges/tree/master/hackerrank">code</a></td>
     </tr>
 </table>
-</p>
+</div>
