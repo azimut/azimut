@@ -1,8 +1,8 @@
 <h2 align="center">📊 Stats</h2>
 
 <p align="center">
-  <img height="auto" width="54%" src ="https://github-readme-stats.vercel.app/api?username=azimut&show_icons=true&count_private=true&theme=gruvbox&hide_border=true&hide=issues,contribs&bg_color=00000000">
-  <img height="auto" width="44%" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=azimut&layout=compact&hide_border=true&theme=gruvbox&bg_color=00000000&langs_count=6&hide=csound%20score,csound">
+  <img height="auto" width="60%" src ="https://github-readme-stats.vercel.app/api?username=azimut&show_icons=true&count_private=true&theme=gruvbox&hide_border=true&hide=issues,contribs&bg_color=00000000">
+  <img height="auto" width="39%" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=azimut&layout=compact&hide_border=true&theme=gruvbox&bg_color=00000000&langs_count=6&hide=csound%20score,csound">
 </p>
 
 <h2 align="center">🥷 Coding Challenges</h2>
