@@ -6,7 +6,7 @@
   </p>
 </article>
 
-<article class="challenges" align="center">
+<div class="challenges" align="center">
   <h2 align="center">🥷 Coding Challenges</h2>
   <table style="text-align: center">
       <tr>
@@ -30,4 +30,4 @@
           <td><a href="https://github.com/azimut/challenges/tree/master/hackerrank">code</a></td>
       </tr>
   </table>
-</article>
+</div>
