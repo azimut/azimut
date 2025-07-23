@@ -9,17 +9,20 @@ LINE_REGEX = r"<b>(?P<date>\d{2}/\d{2})</b><a href=\"(?P<filename>.*.html)\">(?P
 
 def main():
     response = requests.get(BLOG_URL)
-    parse(response.text)
+    trs = generate_trs(response.text)
+    print(trs)
 
-def parse(content):
+def generate_trs(content: str) -> str:
+    result = ""
     for line in content.splitlines():
         if not line.startswith(LINE_START): continue
         match = re.search(LINE_REGEX, line)
         if match:
-            print("<tr>")
-            print(f"<td>{match.group('date')}</td>")
-            print(f"<td><a href=\"{BLOG_URL}/{match.group('filename')}\">{match.group('title')}</a></td>")
-            print("</tr>")
+            result += "<tr>"
+            result += f"<td>{match.group('date')}</td>"
+            result += f"<td><a target=\"_blank\" href=\"{BLOG_URL}/{match.group('filename')}\">{match.group('title')}</a></td>"
+            result += "</tr>"
+    return result
 
 if __name__ == '__main__':
     main()

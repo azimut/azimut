@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-entries="$(python3 update_blog_entries.py | tr -d '\n')"
+entries="$(python3 update_blog_entries.py)"
 sed -f - -i README.md <<EOF
 /<table class="blog-entries"/,/<\/table>/ {
      /<table/b
