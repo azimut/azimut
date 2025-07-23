@@ -2,12 +2,11 @@
   <h2 align="center">👤 About</h2>
   <div>
 
-``` json
-{
-   "working_on": "https://azimut.github.io/newspod/",
-   "learning": ["go","node.js"],
-   "reading": ["100 Go Mistakes and How to Avoid Them"],
-}
+``` lisp
+(make-instance 'profile
+  :working-on "https://azimut.github.io/newspod/"
+  :learning '(go node.js)
+  :reading '("100 Go Mistakes and How to Avoid Them"))
 ```
 
   </div>
