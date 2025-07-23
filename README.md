@@ -6,7 +6,7 @@
 {
    "working_on": "https://azimut.github.io/newspod/",
    "learning": ["go","node.js"],
-   "reading: ["100 Go Mistakes and How to Avoid Them"],
+   "reading": ["100 Go Mistakes and How to Avoid Them"],
 }
 ```
 
