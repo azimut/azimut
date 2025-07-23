@@ -2,7 +2,8 @@
   <h2 align="center">👤 About</h2>
   <div>
     {
-      `foo`: "bar",
+    `foo` : "bar",
+    `baz` : "zap",
     }
   </div>
 </div>
