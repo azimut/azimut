@@ -8,7 +8,7 @@
 
 <div class="challenges" align="center">
   <h2 align="center">🥷 Coding Challenges</h2>
-  <table style="text-align: center">
+  <table>
       <tr>
           <td><b>Codewars</b></td>
           <td><a href="https://www.codewars.com/users/azimut">profile</a></td>
