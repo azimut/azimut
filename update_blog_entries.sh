@@ -1,10 +1,10 @@
 #!/bin/bash
 set -ex
-entries="$(curl -s https://azimut.github.io/blog/ | grep '<li><b>' | tr -d '\n')"
+entries="$(python3 update_blog_entries.py | tr -d '\n')"
 sed -f - -i README.md <<EOF
-/<ul class="blog-entries">/,/<\/ul>/ {
-     /<ul/b
-     /<\/ul>/ {
+/<table class="blog-entries"/,/<\/table>/ {
+     /<table/b
+     /<\/table>/ {
         i ${entries}
         p
      }
