@@ -1,3 +1,12 @@
+<div class="about" align="center">
+  <h2 align="center">👤 About</h2>
+  <div>
+    {
+      `foo`: "bar",
+    }
+  </div>
+</div>
+
 <div class="stats">
   <h2 align="center">📊 Stats</h2>
   <p align="center">
