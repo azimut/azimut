@@ -2,8 +2,16 @@
   <h2 align="center">👤 About</h2>
   <div>
     {
-    `foo` : "bar",
-    `baz` : "zap",
+
+``` json
+{
+  `foo` : "bar",
+  `baz` : "zap",
+  asd: 123,
+  fgh: "ad",
+}
+```
+
     }
   </div>
 </div>
