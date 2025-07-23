@@ -34,9 +34,7 @@
 
 <div class="blog" align="center">
   <h2 align="center">✍️ Blog Entries</h2>
-  <center>
-  <ul class="blog-entries" align="center" style="list-style-positioning: inside">
+  <ul class="blog-entries">
 <li><b>05/25</b><a href="adbfun.html">Android: Installing CA certs</a></li><li><b>04/25</b><a href="sst29-rom.html">Arduino: How to write an EEPROM</a></li><li><b>07/24</b><a href="sevendht.html">Arduino: Using a SDA2131 and a DHT11</a></li><li><b>02/24</b><a href="awkgoodbadugly.html">AWK: The Good, The Bad &amp; The Ugly</a></li><li><b>09/18</b><a href="lispturtles.html">Lisp: It's parens all the way down!</a></li>
   </ul>
-  </center>
 </div>
