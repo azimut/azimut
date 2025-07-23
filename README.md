@@ -31,3 +31,9 @@
       </tr>
   </table>
 </div>
+
+<div class="blog">
+  <h2 align="center">✍️ Blog Entries</h2>
+  <ul class="blog-entries">
+  </ul>
+</div>
