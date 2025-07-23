@@ -1,12 +1,14 @@
 <div class="about" align="center">
   <h2 align="center">👤 About</h2>
   <div>
+
 ``` json
 {
   "foo": 123,
   "bar": "abf"
 }
 ```
+
   </div>
 </div>
 
