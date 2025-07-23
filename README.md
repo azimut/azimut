@@ -1,9 +1,9 @@
 <div class="about">
-  <h2 align="center">👤 About</h2>
+  <h2 align="center">👤 About Me</h2>
   <div>
 
 ``` lisp
-(make-instance 'profile
+(make-instance 'about
   :working-on "https://azimut.github.io/newspod/"
   :learning '(go node.js)
   :reading '("100 Go Mistakes and How to Avoid Them"))
