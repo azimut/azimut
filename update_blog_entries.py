@@ -13,16 +13,16 @@ def main():
     print(trs)
 
 def generate_trs(content: str) -> str:
-    result = ""
+    result = []
     for line in content.splitlines():
         if not line.startswith(LINE_START): continue
         match = re.search(LINE_REGEX, line)
         if match:
-            result += "<tr>"
-            result += f"<td>{match.group('date')}</td>"
-            result += f"<td><a target=\"_blank\" href=\"{BLOG_URL}/{match.group('filename')}\">{match.group('title')}</a></td>"
-            result += "</tr>"
-    return result
+            result.append("<tr>")
+            result.append(f"<td>{match.group('date')}</td>")
+            result.append(f"<td><a target=\"_blank\" href=\"{BLOG_URL}/{match.group('filename')}\">{match.group('title')}</a></td>")
+            result.append("</tr>")
+    return "\n".join(result)
 
 if __name__ == '__main__':
     main()
