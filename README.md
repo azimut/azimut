@@ -48,9 +48,7 @@
 
 <div id="blog">
   <h2 align="center">✍️ Blog Entries</h2>
-  <table id="blog_entries">
-    <tbody align="center">
+  <table id="blog_entries" align="center">
     <tr><td>07/25</td><td><a target="_blank" href="http://azimut.github.io/blog/apitesting.html">CLI: Testing a REST API</a></td></tr><tr><td>05/25</td><td><a target="_blank" href="http://azimut.github.io/blog/adbfun.html">Android: Installing CA certs</a></td></tr><tr><td>07/24</td><td><a target="_blank" href="http://azimut.github.io/blog/sevendht.html">Arduino: Using a SDA2131 and a DHT11</a></td></tr><tr><td>02/24</td><td><a target="_blank" href="http://azimut.github.io/blog/awkgoodbadugly.html">AWK: The Good, The Bad &amp; The Ugly</a></td></tr><tr><td>09/18</td><td><a target="_blank" href="http://azimut.github.io/blog/lispturtles.html">Lisp: It's parens all the way down!</a></td></tr>
-    </tbody>
   </table>
 </div>
