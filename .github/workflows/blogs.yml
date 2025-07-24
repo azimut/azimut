@@ -18,7 +18,7 @@ jobs:
 
       - name: Fetch and Modify blog entries
         run: |
-          bash update_blog_entries.sh
+          ./update_blog_entries.sed
           git status
 
       - name: Commit and push if there are changes
