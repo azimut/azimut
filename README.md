@@ -4,9 +4,9 @@
 
 ``` lisp
 (make-instance 'about
-  :working-on "https://azimut.github.io/newspod/"
-  :learning '(go node.js)
-  :reading '("100 Go Mistakes and How to Avoid Them"))
+  :working-on "https://github.com/azimut/sketches"
+  :learning '(ffmpeg imagemagick)
+  :reading '("Elements of Clojure"))
 ```
 
   </div>
