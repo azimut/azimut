@@ -5,8 +5,8 @@
 ``` lisp
 (make-instance 'about
   :working-on "https://github.com/azimut/sketches"
-  :learning '(ffmpeg imagemagick)
-  :reading '("Elements of Clojure"))
+  :learning '(m4 ffmpeg imagemagick)
+  :reading '("Seven Obscure Languages in Seven Weeks"))
 ```
 
   </div>
