@@ -4,9 +4,9 @@
 
 ``` lisp
 (make-instance 'about
-  :working-on "https://github.com/azimut/raytracer-challenge"
-  :learning '(c raytracing)
-  :reading '("The Ray Tracer Challenge"))
+  :working-on "https://github.com/azimut/programming-notes"
+  :learning '(machine-learning gnuplot)
+  :reading '("Programming Machine Learning"))
 ```
 
   </div>
