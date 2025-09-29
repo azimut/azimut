@@ -4,8 +4,8 @@
 
 ``` lisp
 (make-instance 'about
-  :working-on "https://github.com/azimut/programming-notes"
-  :learning '(machine-learning gnuplot)
+  :working-on "https://github.com/azimut/prog-ml"
+  :learning '(machine-learning gnuplot futhark)
   :reading '("Programming Machine Learning"))
 ```
 
