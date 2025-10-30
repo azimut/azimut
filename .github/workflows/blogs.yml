@@ -16,6 +16,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - uses: actions/cache@v4
+        id: factor-install
+        with:
+          path: ~/opt
+          key: factor-install
+
+      - name: Install Factor
+        if: steps.factor-install.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/opt
+          cd ~/opt
+          wget -q -O - https://downloads.factorcode.org/releases/0.100/factor-linux-x86-64-0.100.tar.gz | tar xzf -
+
+      - name: Fetch and Modify notes
+        run: |
+          PATH=~/opt/factor:$PATH ./update_notes.factor
+          git status
+
       - name: Fetch and Modify blog entries
         run: |
           ./update_blog_entries.sed
