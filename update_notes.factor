@@ -2,6 +2,8 @@
 USING: kernel io math io.files io.encodings.utf8 ascii regexp random namespaces prettyprint sequences assocs accessors formatting html.parser html.parser.analyzer ;
 IN: notes
 
+CONSTANT: notes-url "https://azimut.github.io/notes/"
+
 : find-all-links ( url -- links ) scrape-html nip find-links ;
 : html-link? ( tag -- ? ) attributes>> "href" of ".*html" <regexp> matches? ;
 : html-links ( url -- links ) find-all-links [ first html-link? ] filter ;
@@ -9,12 +11,12 @@ IN: notes
 : init-random ( -- ) random-generator get 23 seed-random drop ;
 : note-links ( -- links )
     init-random
-    "https://azimut.github.io/notes/"
+    notes-url
     html-links
     randomize ;
 
 : format-html-link ( link name -- 'link )
-    "<a target=\"_blank\" href=\"https://azimut.github.io/notes/%s\">%s</a>"
+    "<a target=\"_blank\" href=\"" notes-url "%s\">%s</a>" 3append
     sprintf ;
 
 : map-link-href ( link-tuple -- href ) [ first attributes>> "href" of ] map ;
