@@ -71,3 +71,9 @@
 </tr>
   </table>
 </div>
+
+<div id="notes">
+  <h2 align="center">📓 Notes</h2>
+  <div>
+  </div>
+</div>
