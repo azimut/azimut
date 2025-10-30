@@ -75,5 +75,16 @@
 <div id="notes">
   <h2 align="center">📓 Notes</h2>
   <div>
+<a target="_blank" href="https://azimut.github.io/notes/awk.html">AWK</a>
+<a target="_blank" href="https://azimut.github.io/notes/m4.html">m4</a>
+<a target="_blank" href="https://azimut.github.io/notes/pic.html">pic</a>
+<a target="_blank" href="https://azimut.github.io/notes/dc.html">dc</a>
+<a target="_blank" href="https://azimut.github.io/notes/jq.html">jq</a>
+<a target="_blank" href="https://azimut.github.io/notes/gnuplot.html">gnuplot</a>
+<a target="_blank" href="https://azimut.github.io/notes/makefile.html">Make</a>
+<a target="_blank" href="https://azimut.github.io/notes/postscript.html">PostScript</a>
+<a target="_blank" href="https://azimut.github.io/notes/sed.html">sed</a>
+<a target="_blank" href="https://azimut.github.io/notes/sqlite.html">SQLite</a>
+<a target="_blank" href="https://azimut.github.io/notes/bc.html">bc</a>
   </div>
 </div>
