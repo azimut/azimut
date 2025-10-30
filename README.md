@@ -74,7 +74,7 @@
 
 <div id="notes">
   <h2 align="center">📓 Notes</h2>
-  <div>
+  <div align="center">
 <a target="_blank" href="https://azimut.github.io/notes/awk.html">AWK</a>
 <a target="_blank" href="https://azimut.github.io/notes/m4.html">m4</a>
 <a target="_blank" href="https://azimut.github.io/notes/pic.html">pic</a>
