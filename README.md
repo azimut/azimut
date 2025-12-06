@@ -4,10 +4,9 @@
 
 ``` lisp
 (make-instance 'about
-  :working-on "https://github.com/azimut/challenges/tree/master/protohackers"
-  :learning '(C networking backend-programming)
-  :reading '("Build Your Own Redis with C/C++"
-             "Beej's Guide to Network Programming"))
+  :working-on "https://github.com/azimut/challenges/tree/master/adventofcode/25"
+  :learning '(Factor)
+  :reading '())
 ```
 
   </div>
