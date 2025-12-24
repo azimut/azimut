@@ -4,8 +4,9 @@
 
 ``` lisp
 (make-instance 'about
-  :working-on "https://github.com/azimut/challenges/tree/master/adventofcode/25"
-  :learning '(Factor)
+  :working-on ("https://github.com/azimut/arduino-sketches"
+               "https://github.com/azimut/mcs-48")
+  :learning '(Arduino Assembly UPI-42)
   :reading '())
 ```
 
