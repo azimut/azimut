@@ -16,8 +16,8 @@
 <div id="stats">
   <h2 align="center">📊 Stats</h2>
   <p align="center">
-    <img height="auto" width="60%" src ="./01.svg">
-    <img height="auto" width="39%" src ="./02.svg">
+    <img height="auto" width="60%" src ="./02.svg">
+    <img height="auto" width="39%" src ="./01.svg">
   </p>
 </div>
 
