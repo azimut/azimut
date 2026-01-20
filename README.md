@@ -59,6 +59,10 @@
 <td><a target="_blank" href="http://azimut.github.io/blog/apitesting.html">CLI: Testing a REST API</a></td>
 </tr>
 <tr>
+<td>07/25</td>
+<td><a target="_blank" href="http://azimut.github.io/blog/mcs48.html">Retrocomputing: MCS-48 Intro</a></td>
+</tr>
+<tr>
 <td>05/25</td>
 <td><a target="_blank" href="http://azimut.github.io/blog/adbfun.html">Android: Installing CA certs</a></td>
 </tr>
