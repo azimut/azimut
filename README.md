@@ -91,6 +91,7 @@
 <a target="_blank" href="https://azimut.github.io/notes/awk.html">AWK</a>
 <a target="_blank" href="https://azimut.github.io/notes/bc.html">bc</a>
 <a target="_blank" href="https://azimut.github.io/notes/dc.html">dc</a>
+<a target="_blank" href="https://azimut.github.io/notes/ed.html">ed</a>
 <a target="_blank" href="https://azimut.github.io/notes/gnuplot.html">gnuplot</a>
 <a target="_blank" href="https://azimut.github.io/notes/jq.html">jq</a>
 <a target="_blank" href="https://azimut.github.io/notes/m4.html">m4</a>
