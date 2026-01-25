@@ -67,6 +67,10 @@
 <td><a target="_blank" href="http://azimut.github.io/blog/adbfun.html">Android: Installing CA certs</a></td>
 </tr>
 <tr>
+<td>04/25</td>
+<td><a target="_blank" href="http://azimut.github.io/blog/sst29-rom.html">Retrocomputing: EEPROM programming</a></td>
+</tr>
+<tr>
 <td>07/24</td>
 <td><a target="_blank" href="http://azimut.github.io/blog/sevendht.html">Arduino: Using a SDA2131 and a DHT11</a></td>
 </tr>
