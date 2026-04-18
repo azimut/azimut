@@ -1,18 +1,3 @@
-<div id="about">
-  <h2 align="center">👤 About Me</h2>
-  <div>
-
-``` lisp
-(make-instance 'about
-  :working-on ("https://github.com/azimut/arduino-sketches"
-               "https://github.com/azimut/mcs-48")
-  :learning '(Arduino Assembly UPI-42)
-  :reading '())
-```
-
-  </div>
-</div>
-
 <div id="stats">
   <h2 align="center">📊 Stats</h2>
   <p align="center">
